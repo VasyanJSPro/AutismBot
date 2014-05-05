@@ -151,6 +151,7 @@ function fun(str){
     stroka = stroka.replace("ip", "127.0.0.1");
     // Пилим костылики! Пердолимся в сраку!
     stroka = stroka.replace("Нет нет Нет", "нет");
+    stroka = stroka.replace("нет нет Нет", "нет");
     stroka = stroka.replace("Нет Нет", "нет");
     stroka = stroka.replace("гей осква", "гей-сити");
     stroka = stroka.replace("гей осквы", "гей-сити");
@@ -181,6 +182,7 @@ function fun(str){
     stroka = stroka.replace("есна хуе вертественн", "на хуе вертественн");
     stroka = stroka.replace("на говна пожуй", "говна пожуй");
     stroka = stroka.replace("говна пожуй мамка твоя", "на хуе только твоя мамка у меня крутится");
+    stroka = stroka.replace("нет ты мамка твоя", "Только ты и мамка твоя");
     return stroka;
 }
 
