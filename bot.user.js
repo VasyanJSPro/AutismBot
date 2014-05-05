@@ -193,12 +193,12 @@ go_in();
 var old = "";
 setInterval(function () { 
 
-    			var rept = get_last_answer();
+    		var rept = get_last_answer();
     			if(rept != old){
-                    		//alert(fun("Привет"));
+                    //alert(fun("Привет"));
     				say(fun(rept));
-                    		old = rept;
-                		}
+                    old = rept;
+                }
 			}, 500);
 
 
