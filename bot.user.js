@@ -191,8 +191,6 @@ go_in();
 //var delay = 5000;
 //say("hi");
 var old = "";
-// эта хуйня должна бы делать паузу перед постом
-// но она тоже не работает
 setInterval(function () { 
 
     			var rept = get_last_answer();
