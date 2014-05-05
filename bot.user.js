@@ -199,9 +199,6 @@ setInterval(function () {
     				say(fun(rept));
                     old = rept;
                 }
-                	else if(old != ""){
-                		say("Что-то ты повторяешься.")
-                	}
 			}, 500);
 
 
