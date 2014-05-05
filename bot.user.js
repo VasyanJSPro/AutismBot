@@ -75,21 +75,21 @@ function fun(str){
     stroka = stroka.replace(",", "");
     stroka = stroka.replace("?", "");
     // Собственно реплейсы
+    stroka = stroka.replace("днище", "Вонзил в тебя я свой хуище");
+    stroka = stroka.replace("Днище", "Вонзил в тебя я свой хуище");
+    stroka = stroka.replace("ДНИЩЕ", "Вонзил в тебя я свой хуище");
     stroka = stroka.replace("сколько лет", "498");
     stroka = stroka.replace("пидора ответ", "хуидора хует");
     stroka = stroka.replace("Пидора ответ", "Хуидора хует");
     stroka = stroka.replace("НЕТ", "ПИДОРА ОТВЕТ");
     stroka = stroka.replace("Нет", "Пидора ответ");
     stroka = stroka.replace("нет", "пидора ответ");
-    stroka = stroka.replace("ДА", "ОТВЕТ ЖИДА");
-    stroka = stroka.replace("Да", "Ответ жида");
-    stroka = stroka.replace("да", "ответ жида");
     stroka = stroka.replace("привет", "пидора ответ");
     stroka = stroka.replace("не ", "");
     stroka = stroka.replace("НЕ ", "");
     stroka = stroka.replace("Привет", "Пидора ответ");
     stroka = stroka.replace("ПРИВЕТ", "ПИДОРА ОТВЕТ");
-    stroka = stroka.replace("ты ", "нет ты ");
+    stroka = stroka.replace("ты", "нет ты");
     stroka = stroka.replace("я м", " гей ");
     stroka = stroka.replace("я ж", " шлюха ");
     stroka = stroka.replace(" ты ", ", нет ты ");
