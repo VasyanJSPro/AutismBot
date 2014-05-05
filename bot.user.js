@@ -195,10 +195,13 @@ setInterval(function () {
 
     			var rept = get_last_answer();
     			if(rept != old){
-                    //alert(fun("Привет"));
+                    		//alert(fun("Привет"));
     				say(fun(rept));
-                    old = rept;
-                }
+                    		old = rept;
+                		}
 			}, 500);
+			else if(old != ""){
+				say("Что-то ты повторяешься.")
+			}
 
     //say(choose_phrase(greetings_phrases));
