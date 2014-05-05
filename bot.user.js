@@ -29,7 +29,7 @@ function go_in(){
 //----------------------------------
 
 // Массивы фраз
-// типа для приветствия, приветствия не работают
+// для приветствия, приветствия не работают
 var greetings_phrases = [ // 0 - 8 эл-тов
     "Привет!", "Здорово!", "Хай)",
     "Прива :)", "Hi!", "Сап", "привет",
@@ -77,23 +77,23 @@ function fun(str){
     // Собственно реплейсы
     stroka = stroka.replace("сколько лет", "хуидора хует");
     stroka = stroka.replace("пидора ответ", "хуидора хует");
- 	stroka = stroka.replace("Пидора ответ", "Хуидора хует");
- 	stroka = stroka.replace("Нет", "Пидора ответ");
+    stroka = stroka.replace("Пидора ответ", "Хуидора хует");
+    stroka = stroka.replace("Нет", "Пидора ответ");
     stroka = stroka.replace("нет", "пидора ответ");
- 	stroka = stroka.replace("привет", "пидора ответ");
- 	stroka = stroka.replace("не ", "");
- 	stroka = stroka.replace("НЕ ", "");
- 	stroka = stroka.replace("Привет", "Пидора ответ");
- 	stroka = stroka.replace("ПРИВЕТ", "ПИДОРА ОТВЕТ");
+    stroka = stroka.replace("привет", "пидора ответ");
+    stroka = stroka.replace("не ", "");
+    stroka = stroka.replace("НЕ ", "");
+    stroka = stroka.replace("Привет", "Пидора ответ");
+    stroka = stroka.replace("ПРИВЕТ", "ПИДОРА ОТВЕТ");
     stroka = stroka.replace("ты ", "Нет ты ");
- 	stroka = stroka.replace("я м", " гей ");
- 	stroka = stroka.replace("я ж", " шлюха ");
- 	stroka = stroka.replace(" ты ", ", нет ты ");
- 	stroka = stroka.replace("тебя", "себя");
- 	stroka = stroka.replace("мой", "твой");
- 	stroka = stroka.replace("300", "сасай у тракториста");
- 	stroka = stroka.replace("что делаешь", "мамку твою ебу");
- 	stroka = stroka.replace(" тво", " нет тво");
+    stroka = stroka.replace("я м", " гей ");
+    stroka = stroka.replace("я ж", " шлюха ");
+    stroka = stroka.replace(" ты ", ", нет ты ");
+    stroka = stroka.replace("тебя", "себя");
+    stroka = stroka.replace("мой", "твой");
+    stroka = stroka.replace("300", "сасай у тракториста");
+    stroka = stroka.replace("что делаешь", "мамку твою ебу");
+    stroka = stroka.replace(" тво", " нет тво");
     stroka = stroka.replace("Ты ", "Нет ты ");
     stroka = stroka.replace("ты ", "Нет ты ");
     stroka = stroka.replace("я ", "ты ");
@@ -183,7 +183,7 @@ go_in();
 //var delay = 5000;
 //say("hi");
 var old = "";
-// эта хуйня типа должна бы делать паузу перед постом, человек типа все дела
+// эта хуйня должна бы делать паузу перед постом
 // но она тоже не работает
 setInterval(function () { 
 
