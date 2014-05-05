@@ -200,8 +200,6 @@ setInterval(function () {
                     		old = rept;
                 		}
 			}, 500);
-			else if(old != ""){
-				say("Что-то ты повторяешься.")
-			}
+
 
     //say(choose_phrase(greetings_phrases));
